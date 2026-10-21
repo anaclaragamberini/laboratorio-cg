@@ -1,13 +1,9 @@
 import streamlit as st
 
-st.title("Computação Gráfica")
+paginas = [
+    st.Page("src/atv1.py", title="Atv 1"),
+    st.Page("src/atv2.py", title="Atv 2"),
+]
 
-st.subheader("Atividade 1 - Setando o ambiente")
+st.navigation(paginas).run()
 
-st.write("Nome: Ana Clara Gamberini")
-
-st.write("Disciplina: Computação Gráfica")
-
-st.write("Instituição: UniFil")
-
-st.success("Meu primeiro aplicativo Streamlit está funcionando!")
