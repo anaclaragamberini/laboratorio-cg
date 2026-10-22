@@ -1,3 +1,4 @@
+# Atividade 2 - Bandeira do Japao
 import numpy as np
 import streamlit as st
 
