@@ -11,7 +11,7 @@ bandeira = np.zeros((12, 18, 3), dtype=np.uint8)
 
 bandeira[:] = (255, 255, 255)
 
-vermelho = (188, 0, 45)
+vermelho = (188, 0, 45) 
 
 for linha in range(12):
     for coluna in range(18):
